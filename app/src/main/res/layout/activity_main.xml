@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.shahalam.projectbusschedule.MainActivity">
 
+    <!--  App bar Layout-->
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,8 +21,11 @@
 
     </android.support.design.widget.AppBarLayout>
 
+    <!--  Tab slide Layout -->
     <include layout="@layout/content_main" />
 
+
+    <!--  Right side floating action bar-->
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -30,20 +34,7 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
-
-    You can use material arc menu https://github.com/saurabharora90/MaterialArcMenu
-
-    Usage
-
-    Add a dependency to your build.gradle:
-
-    dependencies {
-    compile 'com.sa90.materialarcmenu:library:1.3'
-
-    }
-
-
-
+    <!--  left side floating action menu-->
     <com.sa90.materialarcmenu.ArcMenu
         android:id="@+id/arcMenu"
         android:layout_width="wrap_content"
@@ -53,15 +44,15 @@
         app:menu_open="arc_left">
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fabLeft1"
+            android:id="@+id/fabLeftDepartment"
             android:layout_width="wrap_content"
-            android:src="@drawable/refreshicon"
+            android:src="@drawable/department"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fabLeft2"
+            android:id="@+id/fabLeftFaculty"
             android:layout_width="wrap_content"
-            android:src="@drawable/refreshicon"
+            android:src="@drawable/faculty"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.FloatingActionButton

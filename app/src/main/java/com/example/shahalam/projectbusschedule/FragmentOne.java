@@ -13,6 +13,8 @@ import com.bumptech.glide.Glide;
 
 public class FragmentOne extends Fragment {
 
+    ImageView imageView1;
+    
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

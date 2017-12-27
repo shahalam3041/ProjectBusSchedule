@@ -17,10 +17,10 @@ import com.bumptech.glide.Glide;
 
 public class MainActivity extends AppCompatActivity {
 
-    FloatingActionButton fabLeftOne, fabLeftTwo, fabLeftThree, fabLeftFour;
-    MyViewPageAdapter myViewPageAdapter;
+    FloatingActionButton fab,fabLeftDept, fabLeftFaculty, fabLeftThree, fabLeftFour;
     ViewPager viewPager;
     TabLayout tabLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,11 +38,13 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        FloatingActionButton fabLeftOne = findViewById(R.id.fabLeft1);
-        FloatingActionButton fabLeftTwo = findViewById(R.id.fabLeft2);
-        FloatingActionButton fabLeftThree = findViewById(R.id.fabLeft3);
-        FloatingActionButton fabLeftFour = findViewById(R.id.fabLeft4);
+        fab = findViewById(R.id.fab);
+        fabLeftDept = findViewById(R.id.fabLeftDepartment);
+        fabLeftFaculty = findViewById(R.id.fabLeftFaculty);
+        fabLeftThree = findViewById(R.id.fabLeft3);
+        fabLeftFour = findViewById(R.id.fabLeft4);
+
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,20 +53,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        fabLeftOne.setOnClickListener(new View.OnClickListener() {
+        fabLeftDept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Click action
-                Intent intent = new Intent(MainActivity.this, NewMessageActivity.class);
+                Intent intent = new Intent(MainActivity.this, Department.class);
                 startActivity(intent);
             }
         });
 
-        fabLeftTwo.setOnClickListener(new View.OnClickListener() {
+        fabLeftFaculty.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Click action
-                Intent intent = new Intent(MainActivity.this, NewMessageActivity.class);
+                Intent intent = new Intent(MainActivity.this, Faculty.class);
                 startActivity(intent);
             }
         });

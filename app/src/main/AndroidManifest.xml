@@ -19,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewMessageActivity"></activity>
+        <activity android:name=".NewMessageActivity" />
+        <activity android:name=".Department" />
+        <activity android:name=".Faculty"></activity>
     </application>
 
 </manifest>

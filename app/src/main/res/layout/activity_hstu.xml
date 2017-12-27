@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context="com.example.shahalam.projectbusschedule.Faculty">
+    tools:context="com.example.shahalam.projectbusschedule.Hstu">
 
     <TextView
-        android:text="Faculty"
+        android:text="HSTU Home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

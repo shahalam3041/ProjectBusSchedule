@@ -56,15 +56,15 @@
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fabLeft3"
+            android:id="@+id/fabLeftDegree"
             android:layout_width="wrap_content"
-            android:src="@drawable/refreshicon"
+            android:src="@drawable/degree"
             android:layout_height="wrap_content" />
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fabLeft4"
+            android:id="@+id/fabLeftHstu"
             android:layout_width="wrap_content"
-            android:src="@drawable/refreshicon"
+            android:src="@drawable/home"
             android:layout_height="wrap_content" />
 
     </com.sa90.materialarcmenu.ArcMenu>

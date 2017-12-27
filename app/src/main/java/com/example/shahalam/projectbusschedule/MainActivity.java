@@ -17,7 +17,7 @@ import com.bumptech.glide.Glide;
 
 public class MainActivity extends AppCompatActivity {
 
-    FloatingActionButton fab,fabLeftDept, fabLeftFaculty, fabLeftThree, fabLeftFour;
+    FloatingActionButton fab,fabLeftDept, fabLeftFaculty, fabLeftDegree, fabLeftHstu;
     ViewPager viewPager;
     TabLayout tabLayout;
 
@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
         fab = findViewById(R.id.fab);
         fabLeftDept = findViewById(R.id.fabLeftDepartment);
         fabLeftFaculty = findViewById(R.id.fabLeftFaculty);
-        fabLeftThree = findViewById(R.id.fabLeft3);
-        fabLeftFour = findViewById(R.id.fabLeft4);
+        fabLeftDegree = findViewById(R.id.fabLeftDegree);
+        fabLeftHstu = findViewById(R.id.fabLeftHstu);
 
 
         fab.setOnClickListener(new View.OnClickListener() {
@@ -71,20 +71,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        fabLeftThree.setOnClickListener(new View.OnClickListener() {
+        fabLeftDegree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Click action
-                Intent intent = new Intent(MainActivity.this, NewMessageActivity.class);
+                Intent intent = new Intent(MainActivity.this, Degree.class);
                 startActivity(intent);
             }
         });
 
-        fabLeftFour.setOnClickListener(new View.OnClickListener() {
+        fabLeftHstu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Click action
-                Intent intent = new Intent(MainActivity.this, NewMessageActivity.class);
+                Intent intent = new Intent(MainActivity.this, Hstu.class);
                 startActivity(intent);
             }
         });

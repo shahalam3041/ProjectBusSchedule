@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HSTU Bus Schedule</string>
+    <string name="action_settings">Settings</string>
+    <string name="campus_town">Campus-Town</string>
+    <string name="town_campus">Town-Campus</string>
+</resources>

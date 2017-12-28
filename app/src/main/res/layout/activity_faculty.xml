@@ -4,12 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:orientation="vertical"
     tools:context="com.example.shahalam.projectbusschedule.Faculty">
 
     <TextView
-        android:text="Faculty"
+        android:text="HSTU has 9 Faculty "
+        android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="Postgraduate Studies"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+            <Button
+                android:text="Agriculture"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+
+            <Button
+                android:text="Computer Science and Engineering"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+            <Button
+                android:text="Business Studies"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+            <Button
+                android:text="Fisheries"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+            <Button
+                android:text="Veterinary and Animal Science "
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+
+            <Button
+                android:text="Engineering"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+            <Button
+                android:text="Science"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+            <Button
+                android:text="Social Science and Humanities"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

@@ -26,14 +26,35 @@
 
 
     <!--  Right side floating action bar-->
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+
+    <com.sa90.materialarcmenu.ArcMenu
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:menu_scr="@drawable/iconmenu"
+        app:menu_open="arc_left">
 
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:src="@drawable/department"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:src="@drawable/faculty"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:src="@drawable/degree"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:src="@drawable/home"
+            android:layout_height="wrap_content" />
+
+    </com.sa90.materialarcmenu.ArcMenu>
     <!--  left side floating action menu-->
     <com.sa90.materialarcmenu.ArcMenu
         android:id="@+id/arcMenu"

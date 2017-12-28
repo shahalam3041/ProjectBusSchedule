@@ -1,8 +1,12 @@
 <resources>
-    <string name="app_name">HSTU Bus Schedule</string>
+    <string name="app_name">HSTU</string>
     <string name="action_settings">Settings</string>
     <string name="campus_town">Campus-Town</string>
     <string name="town_campus">Town-Campus</string>
     <string name="share">Share</string>
     <string name="info">Info</string>
+    <string name="version_1">Version: 1</string>
+    <string name="app_info">HSTU, an android app named after the short name of the Hajee Mohammad Danesh Science and Technology University. Basically this app is for bus schedule of HSTU. The amazing feature of this app is it can automatically download updated schedule from the server. This feature help user to get ride of updating entire app after any change in schedule. Keeping the bus schedule in first priority, it also included some basic info like about HSTU, faculty, department and degrees it offer. As this is the first app for developer, it may contain bugs and may crash. If you face any problem and think need to add some feature please feel free to ask the developer to do that. Thanks for using this app. HAVE YOU A NICE DAY. PROUD TO BE A HSTUIAN.</string>
+    <string name="developed_by">Developed By: Shah Alam</string>
+    <string name="develper_short_info">Dept. of CSE, HSTU</string>
 </resources>

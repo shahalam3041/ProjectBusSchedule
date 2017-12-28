@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.shahalam.projectbusschedule">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,7 +25,9 @@
         <activity android:name=".Department" />
         <activity android:name=".Faculty" />
         <activity android:name=".Hstu" />
-        <activity android:name=".Degree"></activity>
+        <activity android:name=".Degree" />
+        <activity android:name=".HSTUWebHome" />
+        <activity android:name=".info"></activity>
     </application>
 
 </manifest>

@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -38,20 +39,12 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        fab = findViewById(R.id.fab);
         fabLeftDept = findViewById(R.id.fabLeftDepartment);
         fabLeftFaculty = findViewById(R.id.fabLeftFaculty);
         fabLeftDegree = findViewById(R.id.fabLeftDegree);
         fabLeftHstu = findViewById(R.id.fabLeftHstu);
 
 
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         fabLeftDept.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,7 +77,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Click action
-                Intent intent = new Intent(MainActivity.this, Hstu.class);
+                Toast.makeText(getApplicationContext(), "Opening from HSTU website. Please keep wifi/cellular data on ",Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, HSTUWebHome.class);
                 startActivity(intent);
             }
         });
@@ -107,6 +101,13 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+        }
+        if (id == R.id.action_share) {
+            return true;
+        }
+        if (id == R.id.action_info) {
+            Intent intent = new Intent(this, info.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

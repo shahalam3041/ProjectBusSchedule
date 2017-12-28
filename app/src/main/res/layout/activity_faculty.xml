@@ -20,49 +20,49 @@
             android:orientation="vertical"
             android:layout_height="wrap_content">
             <Button
-                android:text="Postgraduate Studies"
+                android:text="@string/faculty_postgraduate_studies"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:textSize="14sp" />
             <Button
-                android:text="Agriculture"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:textSize="14sp" />
-
-            <Button
-                android:text="Computer Science and Engineering"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:textSize="14sp" />
-            <Button
-                android:text="Business Studies"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:textSize="14sp" />
-            <Button
-                android:text="Fisheries"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:textSize="14sp" />
-            <Button
-                android:text="Veterinary and Animal Science "
+                android:text="@string/faculty_agriculture"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:textSize="14sp" />
 
             <Button
-                android:text="Engineering"
+                android:text="@string/faculty_cse"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:textSize="14sp" />
             <Button
-                android:text="Science"
+                android:text="@string/faculty_business_studies"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:textSize="14sp" />
             <Button
-                android:text="Social Science and Humanities"
+                android:text="@string/faculty_fisheries"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+            <Button
+                android:text="@string/faculty_Veterinary"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+
+            <Button
+                android:text="@string/faculty_engineering"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+            <Button
+                android:text="@string/faculty_science"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="14sp" />
+            <Button
+                android:text="@string/faculty_social_science"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:textSize="14sp" />

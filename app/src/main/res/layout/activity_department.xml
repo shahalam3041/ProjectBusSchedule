@@ -8,41 +8,71 @@
     tools:context="com.example.shahalam.projectbusschedule.Department">
 
     <TextView
-        android:text="HSTU has ** department "
+        android:text="HSTU has 43 department "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#dee0e2"
-            android:rowCount="2"
-            android:columnCount="2">
-            <Button
-                android:text="Cell 0"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:textSize="14sp" />
-            <Button
-                android:text="Cell 1"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:textSize="14sp" />
+        <!--Faculty of Postgraduate Studies
 
-            <Button
-                android:text="Cell 2"
-                android:layout_row="1"
-                android:layout_column="0"
-                android:textSize="14sp" />
-            <Button
-                android:text="Cell 3"
-                android:layout_row="1"
-                android:layout_column="1"
-                android:textSize="14sp" />
-        </GridLayout>
+
+        Dept. of Agronomy
+        Dept. of Horticulture
+        Dept. of Soil Science
+        Dept. of Entomology
+        Dept. of Plant Pathology
+        Dept. of Genetics & Planet Breeding
+        Dept. of Crop Physiology & Ecology
+        Dept. of Agricultural Extension
+        Dept. of Agricultural Chemistry
+        Dept. of Agroforestry And Environment
+        Dept. of Biochemistry & Molecular Biology
+
+
+        Dept. of Computer Science and Engineering
+        Dept. of Electronics & Communication Engineering
+        Dept. of Electrical and Electronic Engineering
+
+
+        Dept. of Management
+        Dept. of Finance and Banking
+        Dept. of Marketing
+        Dept. of Accounting
+
+
+        Dept. of Fisheries Biology & Genetics
+        Dept. of Fisheries Management
+        Dept. of Fisheries Technology
+        Dept. of Aquaculture
+
+        Dept. of Microbiology
+        Dept. of Pathology & Parasitology
+        Dept. of Dairy & Poultry Science
+        Dept. of Anatomy & Histology
+        Dept. of General Animal Science & Nutrition
+        Dept. of Genetics & Animal Breeding
+        Dept. of Medicine, Surgery and Obstetrics
+        Dept. of Physiology & Pharmacology
+
+        Dept. of Agricultural & Industrial Engineering
+        Dept. of Food Processing & Preservation
+        Dept. of Food Engineering & Technology
+        Dept. of Food Science & Nutrition
+        Dept. of Architecture
+        Dept. of Civil Engineering
+        Dept. of Mechanical Engineering
+
+        Dept. of Chemistry
+        Dept. of Physics
+        Dept. of Mathematics
+        Dept. of Statistics
+
+        Dept. of Economics
+        Dept. of Language (English)
+        Dept. of Sociology-->
+
 
     </ScrollView>
 
